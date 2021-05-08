@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['airbnb', 'prettier', 'prettier/react'],
+  extends: ['airbnb', 'prettier'],
   parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 2020,
@@ -17,6 +17,7 @@ module.exports = {
   rules: {
     'no-debugger': 0,
     'no-alert': 0,
+    'no-plusplus': 0,
     'no-await-in-loop': 0,
     'no-return-assign': ['error', 'except-parens'],
     'no-restricted-syntax': [
