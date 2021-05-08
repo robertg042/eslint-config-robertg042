@@ -39,7 +39,7 @@ module.exports = {
         destructuring: 'all',
       },
     ],
-    'arrow-body-style': [2, 'as-needed'],
+    'arrow-body-style': ['error', 'always'],
     'no-unused-expressions': [
       2,
       {
@@ -62,19 +62,20 @@ module.exports = {
     'import/extensions': 0,
     'no-underscore-dangle': 0,
     'consistent-return': 0,
-    'react/display-name': 1,
+    'react/display-name': 0,
     'react/no-array-index-key': 0,
     'react/react-in-jsx-scope': 0,
     'react/prefer-stateless-function': 0,
     'react/forbid-prop-types': 0,
     'react/no-unescaped-entities': 0,
     'jsx-a11y/accessible-emoji': 0,
-    "jsx-a11y/label-has-associated-control": [
-      "error",
+    'jsx-a11y/label-has-associated-control': [
+      'error',
       {
-        "assert": "either"
+        'assert': 'either'
       }
     ],
+    'react/jsx-props-no-spreading': 0,
     'react/require-default-props': 0,
     'react/jsx-filename-extension': [
       1,
